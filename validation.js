@@ -43,7 +43,7 @@ $(document).ready(function () {
         // Use the name and grade the user provided in the form.
         var fName = $("#firstName").val();
         var grade = $("#grade").val();
-        $("#message").text('Thank you for registering!')
+        $("#message").text('Thank you for registering ' + fName + ' for grade ' + grade);
 
 
     }
